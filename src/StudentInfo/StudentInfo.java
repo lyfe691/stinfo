@@ -115,7 +115,7 @@ public class StudentInfo implements Comparable<StudentInfo> {
 		StudentInfo student_data_id03 = new StudentInfo("Cem Kurd", "Cem", "Kurd", 16, 2.0);
 		StudentInfo student_data_id04 = new StudentInfo("Leart Azemi", "Leart", "Azemi", 16, 2.4);
 		StudentInfo student_data_id05 = new StudentInfo("Smart Student", "Smart", "Student", 16, 4.2);
-		StudentInfo student_data_id06 = new StudentInfo("TEst Test", "TEst", "Test", 15, 2); //Passing gpa is 2.5, this is just a test
+		StudentInfo student_data_id06 = new StudentInfo("TEst Test", "TEst", "Test", 15, PASSING_GPA); //Passing gpa is 2.5, this is just a test
 		
 		// Create a list of students
 		List<StudentInfo> students = Arrays.asList(
