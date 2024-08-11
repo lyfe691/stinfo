@@ -110,6 +110,7 @@ public class StudentInfo implements Comparable<StudentInfo> {
 	
 	public static void main(String[] args) {
 		// Create and use the students
+		// Format: Fullname, Firstname, Lastname, age, gpa.
 		StudentInfo student_data_id01 = new StudentInfo("Yanis Sebastian Zürcher", "Yanis Sebastian", "Zürcher", 16, 3.9);
 		StudentInfo student_data_id02 = new StudentInfo("Koichiro Möller", "Koichiro", "Möller", 16, 3.0);
 		StudentInfo student_data_id03 = new StudentInfo("Cem Kurd", "Cem", "Kurd", 16, 2.0);
